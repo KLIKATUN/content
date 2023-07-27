@@ -1,4 +1,25 @@
----
+---const button = document.querySelector("button");
+const evtSource = new EventSource("sse.php");
+
+button.onclick = () => {
+  console.log("Connection closed");
+  evtSource.close();
+};
+const button = document.querySelector("button");
+const evtSource = new EventSource("sse.php");
+
+button.onclick = () => {
+  console.log("Connection closed");
+  evtSource.close();
+};
+const button = document.querySelector("button");
+const evtSource = new EventSource("sse.php");
+
+button.onclick = () => {
+  console.log("Connection closed");
+  evtSource.close();
+};
+
 title: "EventSource: close() method"
 short-title: close()
 slug: Web/API/EventSource/close
